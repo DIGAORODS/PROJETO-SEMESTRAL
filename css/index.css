@@ -1,0 +1,132 @@
+body {
+  background-color: #f8eaf1;
+}
+
+.conteiner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+  h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.content {
+  background: crimson;
+  /* width: 70%; */
+  box-sizing: border-box;
+  height: auto;
+  border-radius: 32px;
+  padding: 7px;
+  margin-left: 20PX;
+}
+
+
+.content input {
+  border-radius: 20px;
+  background: white;
+  padding: 10px;
+  width: 70%;
+  border: none;
+  margin-right: 20px;
+  margin-left: 70px;
+  height: 45px;
+}
+
+.content button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+  /* img {
+    background-image:none;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    border-radius: 20px;
+    width: 30%;
+    height: 30%;
+  } */
+
+.nav {
+  text-align: center;
+  width: 400px; 
+
+}
+
+a:link{
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+}
+
+a:hover{
+  text-decoration: none;
+  color: gray;
+  background-color: white;
+}
+
+
+div{
+  display: inline-block;
+}
+
+.menu-ul{
+  width: auto;
+  font-size:38px;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 10px;
+  border:2px solid black;
+  list-style: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.box{
+  width: 1200px;
+  height: 50px;
+  text-align: right;
+  position: relative;
+  margin-top: 00px;
+}
+
+.imagem-header{
+  max-width: 100%;
+  border-radius: 10%;
+  max-height: 100%;
+}
+.container_imagem_header{
+  height: 447px ;
+  overflow: hidden;
+  margin-top: 70px;
+}
+.texto_login{
+margin: 5px !important;
+margin-right: 5px;
+padding-right: 2px !important;
+background-color:deeppink;
+color:black;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 32px;
+border-radius: 30px;
+padding-right: 10px;
+height:60px;
+}
+.link_login{
+background-color:deeppink;
+color:black;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 32px;
+border-radius: 30px;
+padding-left: 10px;
+}
